@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            Help
+        </title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <style>
+            Nav{
+        background-color: black;
+        display: flex;
+              }
+    nav ul{
+        list-style:none;
+        display: flex;
+    }
+    nav ul li{
+        list-style: none;
+        padding-left: 60px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    fieldset{
+        margin-top: 60px;
+        margin-left: 350px;
+        margin-right: 350px;
+        width: 500px;
+        height: 300px;
+        padding-left: 20px;
+    }
+    textarea{
+        width: 300px;
+        height: 40px;
+    }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="web.html"><i class="fa-solid fa-house"></i>Home ||</a></li>
+                <li><a href="About us.html"><i class="fa-solid fa-address-card"></i>About Us ||</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-envelope"></i>Contact ||</a></li>
+                <li><a href="help.html"><i class="fa-solid fa-gears"></i>Help ||</a></li>
+            </ul>
+        </nav>
+            <form>
+                <fieldset>
+                <legend>IF YOU'RE FACING A PROBLEM WITH OUR WEBSITE, PLEASE CHOOSE BELOW OPTION:</legend>
+                Video doesn't work properly:<input type="checkbox" name="problem[]" value="video"><br>
+                Taking too long to load:<input type="checkbox" name="problem[]" value="loading"><br>
+                Website not working:<input type="checkbox" name="problem[]" value="not_working"><br>
+                Can't log in:<input type="checkbox" name="problem[]" value="services"><br><br>
+                <label for="comments">Other:</label><br>
+                <textarea id="comments" name="comments" placeholder="If you have additional problems, please write here"></textarea><br><br><br>
+                <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+    </body>
+</html>

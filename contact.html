@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>
+            Contact
+        </title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <style>
+            Nav{
+        background-color: black;
+        display: flex;
+              }
+    nav ul{
+        list-style:none;
+        display: flex;
+    }
+    nav ul li{
+        list-style: none;
+        padding-left: 60px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+
+    body {
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }        
+        label{
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="web.html"><i class="fa-solid fa-house"></i>Home ||</a></li>
+                <li><a href="About us.html"><i class="fa-solid fa-address-card"></i>About Us ||</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-envelope"></i>Contact ||</a></li>
+                <li><a href="help.html"><i class="fa-solid fa-gears"></i>Help ||</a></li>
+            </ul>
+        </nav>
+
+        <h1>Contact Us</h1>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" name="Email" placeholder="Email">
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Email password">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Message" rows="5" cols="5"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    </body>
+</html>
